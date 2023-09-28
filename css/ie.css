@@ -1,0 +1,34 @@
+body { min-width: 980px;}
+
+.sf-menu > li > ul, 
+.sf-menu > li.sfHover > ul, 
+.sf-menu li li ul,
+#contact-form .success,
+.img-bord div,
+.magnifier:after { behavior:url(js/PIE.htc); position:absolute;}
+
+.sf-menu > li > ul > li > a,
+.sf-menu li li li,
+.sf-menu li li li a,
+.sf-menu > li > a,
+.sf-menu > li > ul > li,
+.sf-menu > li,
+.btn,
+.img-bord,
+.img-bord img,
+.search input,
+#contact-form label input,
+#contact-form label textarea,
+.map,
+#map_canvas,
+nav ul { behavior:url(js/PIE.htc); position:relative;}
+
+.camera_wrap .camera_pag .camera_pag_ul li > span { background: url(../images/camera-pag.png) -21px top no-repeat;}
+.camera_wrap .camera_pag .camera_pag_ul li:hover > span, 
+.camera_wrap .camera_pag .camera_pag_ul li.cameracurrent > span { 
+	background: url(../images/camera-pag.png) left top no-repeat!important; 
+	background-color: transparent;
+}
+.slider { margin-top: -1px;}
+
+.magnifier:after { background: none;}
